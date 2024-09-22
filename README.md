@@ -1,7 +1,7 @@
 # Summarizer
 
 ## Run in Gitpod
-https://gitpod.io/#https://github.com/aknip/LLM-Summarizer
+https://gitpod.io/#https://github.com/aknip/Gitpod-Replit-Template_Marimo
 
 ## Virtual environment using uv
 - Install: curl -LsSf https://astral.sh/uv/install.sh | sh
