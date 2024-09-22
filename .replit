@@ -1,0 +1,15 @@
+
+# this works - no token necessary
+# run = "marimo edit --host 0.0.0.0 --port 80 --no-token"
+
+# this works - with token (in separate browser tab, not in replit webview)
+run = "marimo edit --host 0.0.0.0 --port 80 --token --token-password helloworld"
+
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 80
+externalPort = 80
