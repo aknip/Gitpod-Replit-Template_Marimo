@@ -10,5 +10,11 @@ def __():
     return (mo,)
 
 
+@app.cell
+def __():
+    print('hello world')
+    return
+
+
 if __name__ == "__main__":
     app.run()
